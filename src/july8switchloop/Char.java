@@ -1,4 +1,4 @@
-package july8;
+package july8switchloop;
 
 import java.util.Scanner;
 

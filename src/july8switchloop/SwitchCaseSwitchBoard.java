@@ -1,12 +1,12 @@
-package july8;
+package july8switchloop;
 import java.util.Scanner;
-public class SwitchJuly8 {
+public class SwitchCaseSwitchBoard {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your input: ");
 
         System.out.println("welcome to my house");
-                System.out.println("1 : white blub ");
+                System.out.println("1 :white blub ");
         System.out.println("2 : blue blub ");
         System.out.println(" 3 : red blub ");
         System.out.println(" 4: nothing ");

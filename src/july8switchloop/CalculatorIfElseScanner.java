@@ -1,8 +1,8 @@
-package july8;
+package july8switchloop;
 
 import java.util.Scanner;
 
-public class Test {
+public class CalculatorIfElseScanner {
     public static void main(String[] args) {
         Scanner num1 = new Scanner(System.in);
         System.out.println("Enter  number: ");

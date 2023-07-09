@@ -1,5 +1,5 @@
 
-        package july8;
+        package july8switchloop;
 import java.util.Scanner;
 
 public class CalculatorSwitch {
@@ -15,8 +15,8 @@ public class CalculatorSwitch {
         System.out.println("Calculator ");
         System.out.println("1 : addition ");
         System.out.println("2 : Subtractions ");
-        System.out.println(" 3 : multiplication ");
-        System.out.println(" 4: division");
+        System.out.println("3 : multiplication ");
+        System.out.println("4: division");
 
 
        // int input = sc.nextInt();
