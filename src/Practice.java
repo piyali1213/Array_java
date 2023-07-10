@@ -1,8 +1,7 @@
-package july8switchloop;
 import java.util.Scanner;
-public class CustomerService {
-    public static void main(String[] args) {
 
+public class Practice {
+    public static void main(String[] args) {
         System.out.println(": welcome to Td customer service:");
         System.out.println("Enter The following options :");
         System.out.println("1:press 1 to enter you access no :");
@@ -94,13 +93,8 @@ public class CustomerService {
 
 
 
-    }
-}
-
-
-
-
-
+                }
+        }
 
 
 

@@ -7,7 +7,7 @@ public class WhileLoopNutralNumber {
 
         num1 =0;
         num2=1;
-        while (num1 <= 10) {
+        while (num1 < 10) {
             num2 = num1 + num2 ;
             num1++;
             System.out.println("result : " + num2);
