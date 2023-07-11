@@ -17,22 +17,28 @@ public class CustomerService {
             case 1:
                 System.out.println("Enter last 4 digit number :");
                 int digit = input.nextInt();
-                System.out.println(" press # talk to the agent \n press & account information \n press * current balance ");
-                System.out.println("Enter char : ");
-                char ch = input.next().charAt(0);
+                if (digit >999 && digit<10000) {
+                    System.out.println("valid scenario");
+                    System.out.println(" press # talk to the agent \n press & account information \n press * current balance ");
+                    System.out.println("Enter char : ");
+                    char ch = input.next().charAt(0);
 
-                switch (ch) {
-                    case '#':
-                        System.out.println("talk to the agent");
-                        break;
-                    case '&':
-                        System.out.println("Account information");
-                        break;
-                    case '*':
-                        System.out.println("current balance");
-                        break;
-                    default:
-                        System.out.println("go to the main menu:");
+                    switch (ch) {
+                        case '#':
+                            System.out.println("talk to the agent");
+                            break;
+                        case '&':
+                            System.out.println("Account information");
+                            break;
+                        case '*':
+                            System.out.println("current balance");
+                            break;
+                        default:
+                            System.out.println("go to the main menu:");
+                    }
+                }
+                else {
+                    System.out.println("not a valid scenario");
                 }
                 break;
 
@@ -64,12 +70,15 @@ public class CustomerService {
                 int cardnum = input.nextInt();
                 System.out.println("check you verification code over phone");
                 System.out.println("is your verifacation code true :");
-                boolean vernum = input.hasNext();
+               //boolean vernum = input.hasNext();
+               String vernum=input.next();
+                // vernum = true;
 
-                if (vernum)
+                if (vernum == "true")
                 {
                     System.out.println("thanks for calling ");
-                } else
+                }
+                else
                 {
                     System.out.println("go back to the main menu ");
                 }
@@ -78,21 +87,6 @@ public class CustomerService {
             default:
                 System.out.println("wrong window ");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
