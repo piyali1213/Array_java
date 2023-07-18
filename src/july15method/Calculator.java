@@ -2,7 +2,11 @@ package july15method;
 
 import java.util.Scanner;
 
+
 public class Calculator{
+
+public class Calculator {
+    
         public static void cal() {
             String user_input = "null";
             do {
@@ -18,9 +22,9 @@ public class Calculator{
                 int num1 = input.nextInt();
                 System.out.print(" Enter 2nd number  : ");
                 int num2 = input.nextInt();
+
                 System.out.print(" Enter 3rd number  : ");
                 int num3 = input.nextInt();
-
 
                 switch (choice) {
                     case '+':
@@ -33,12 +37,21 @@ public class Calculator{
 
                     case '*':
                         Calculator.muls(num1, num2);
+                        july15method.Calculator.add(num1, num2);
+
+                        break;
+                    case '-':
+                        july15method.Calculator.subs(num1, num2);
+                        break;
+
+                    case '*':
+                        july15method.Calculator.muls(num1, num2);
 
                         break;
 
                     case '/':
                         Calculator.divs(num1, num2);
-
+                        july15method.Calculator.divs(num1, num2);
                         break;
                     default:
                         System.out.println("WRONG WINDOW");
@@ -50,6 +63,10 @@ public class Calculator{
                 }
                 while (user_input.equals("y") || user_input.equals("N")) ;
             }
+                user_input = input.next();
+            }
+            while (user_input.equals("y") || user_input.equals("N")) ;
+        }
 
         public static void add ( int n1, int n2)
         {
@@ -80,13 +97,11 @@ public class Calculator{
         int mul = n1 * n2*n3;
         System.out.println("the multiplications of two number " + mul);
     }
+
         public static void divs ( int n1,int n2)
         {
             int div = n1 / n2;
             System.out.println("the divisions of two number " + div);
         }
-
-
-
     }
-
+    }
