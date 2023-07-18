@@ -19,39 +19,45 @@ public class CharSwitchCalculator {
 
         {
             case '+':
-                System.out.println("Enter the 1st number: ");
+                public static int sum(int num1,int num2){ sum= num1+num2};
+
+               /* System.out.println("Enter the 1st number: ");
                 int num1 = sc.nextInt();
                 System.out.println("Enter the 2nd number: ");
                 int num2 = sc.nextInt();
                 int sum = num1 + num2;
-                System.out.println("the addition :" +sum);
+                System.out.println("the addition :" +sum);*/
                 break;
             case '-':
 
-                System.out.println("Enter the 1st number: ");
+                public static int sub(int num1,int num2){ sub= num1-num2};
+
+               /* System.out.println("Enter the 1st number: ");
                 num1 = sc.nextInt();
                 System.out.println("Enter the 2nd number: ");
                 num2 = sc.nextInt();
                 int sub = num1 - num2;
-                System.out.println("the subtraction :" +sub);
+                System.out.println("the subtraction :" +sub);*/
                 break;
             case '*' :
-                System.out.println("Enter the 1st number: ");
+                public static int mul(int num1,int num2){ mul= num1*num2};
+              /*  System.out.println("Enter the 1st number: ");
                 num1 = sc.nextInt();
                 System.out.println("Enter the 2nd number: ");
                 num2 = sc.nextInt();
                 int mul = num1 * num2;
-                System.out.println("the addition :" + mul);
+                System.out.println("the addition :" + mul);*/
 
                 break;
             case '/':
-                System.out.println("Enter the 1st number: ");
+                public static int div(int num1,int num2){ div= num1/num2};
+                /*System.out.println("Enter the 1st number: ");
                 num1 = sc.nextInt();
                 System.out.println("Enter the 2nd number: ");
                 num2 = sc.nextInt();
                 int div = num1/num2;
                 System.out.println("the division : " + div);
-                break;
+                break;*/
             default:
                 System.out.println("Wrong Window ");
         }
