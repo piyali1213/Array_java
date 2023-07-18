@@ -30,18 +30,18 @@ public class GreatestNumber {
         choice = input.next();
 
 
-            if (choice != "yes") {
-                break;
-                System.out.println("continue");
-            }
-            else {
+        if (choice != "yes") {
 
-                 //else{
-               // System.out.println("exit");
+            System.out.println("continue");
+        } else {
+
+            //else{
+            // System.out.println("exit");
 
 
         }
     }
+}
 
 
 
