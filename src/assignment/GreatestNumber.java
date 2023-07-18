@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class GreatestNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-       // String choice;
+        String choice;
 
 
         System.out.print("Enter the first value : ");
@@ -24,19 +24,25 @@ public class GreatestNumber {
             System.out.println("all are equal number");
         } else {
             System.out.println("invalid");
+
+        }
+        System.out.println("do you want to exit ? \n press y for continue or n for exit");
+        choice = input.next();
+
+
+            if (choice != "yes") {
+                break;
+                System.out.println("continue");
+            }
+            else {
+
+                 //else{
+               // System.out.println("exit");
+
+
         }
     }
-}
-   /* System.out.println("do you want to exit ? \n press y for continue or n for exit");
-    choice = input.next();
-    {
-        while (true) {
-            if (choice != "yes") {
-                System.out.println("continue");
-            } else {
-                System.out.println("exit");
 
-            }*/
 
 
 
