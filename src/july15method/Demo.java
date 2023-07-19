@@ -1,7 +1,7 @@
 package july15method;
 
-public class CalculatorMain {
+public class Demo {
     public static void main(String[] args) {
-        Calculator.cal();
+        System.out.println("hello world");
     }
 }
