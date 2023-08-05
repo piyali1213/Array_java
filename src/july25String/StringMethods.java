@@ -1,4 +1,4 @@
-package july25;
+package july25String;
 
 public class StringMethods {
     public static void main(String[] args) {
@@ -29,8 +29,12 @@ public class StringMethods {
         System.out.println("19. "+s4.length());
         System.out.println("20. "+s1.lastIndexOf('a'));
         System.out.println("21. "+s2.substring(2));
+
         System.out.println("22. "+s5.trim());
-        System.out.println("20. "+s3.replaceFirst("sc","pp"));
+        System.out.println("23. "+s3.replaceFirst("sc","pp"));
+        System.out.println("24. "+s3.substring(0,3));//substring start with 0 index end with 3 index
+        System.out.println("25. "+s1.toUpperCase());
+        System.out.println("26. "+s2.toLowerCase());
 
 
     }

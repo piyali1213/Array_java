@@ -1,4 +1,4 @@
-package july25;
+package july25String;
 
 public class StringEqualMethod {
     public static void main(String[] args) {

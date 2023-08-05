@@ -1,4 +1,4 @@
-package july22;
+package july22ArrayAndArrayAssignment;
 
 import java.util.Scanner;
 

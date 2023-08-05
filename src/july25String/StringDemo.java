@@ -1,4 +1,4 @@
-package july25;
+package july25String;
 
 public class StringDemo {
     public static void main(String[] args) {
@@ -10,6 +10,8 @@ public class StringDemo {
 
                                                         //  after s1 num is not adding print whole line string
         String s= String.valueOf(num);
-        System.out.println(10 + s); // it would not add , it print the whole string
+        System.out.println(10 + s);  // it would not add , it print the whole string
+
+
     }
 }
